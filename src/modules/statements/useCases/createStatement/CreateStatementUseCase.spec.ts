@@ -18,7 +18,7 @@ describe("Create Statement", () => {
     );
   });
 
-  it("should be able to create a new category", async () => {
+  it("should be able to create statement", async () => {
     const statement = new Statement();
     const user = await inMemoryUsersRepository.create({
       name: "John Doe",
